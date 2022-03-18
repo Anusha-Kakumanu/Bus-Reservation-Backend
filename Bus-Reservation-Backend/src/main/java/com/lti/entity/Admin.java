@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "TBLADMIN")
-public class Admin {
+public class Admin {//Admin
 	@Id
 	@GeneratedValue
 	private int admid;
