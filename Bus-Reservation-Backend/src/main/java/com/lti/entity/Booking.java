@@ -16,7 +16,7 @@ public class Booking {
 	@GeneratedValue
 	private int bookingId;
 	private int numberOfSeats;
-	private double fareAmount;
+	private double fareAmount;//Amount should be gearter than 800
 	private LocalDateTime dateOfBooking;
 	private boolean bookingStatus;//this is my booking status
 	
